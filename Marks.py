@@ -8,5 +8,5 @@ else:
         results = "passed"
 
         print(result)
-        
+        print(results)
         

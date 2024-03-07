@@ -25,3 +25,16 @@ print(f"The index of 30 in my_list is: {index_30}")
 
 # Final content of my_list
 print(f"my_list: {my_list}")
+# Calculate the average of the list
+average = sum(my_list) / len(my_list)
+print(f"The average of my_list is: {average}")
+
+# Find the maximum and minimum value in the list
+max_value = max(my_list)
+min_value = min(my_list)
+print(f"The maximum value in my_list is: {max_value}")
+print(f"The minimum value in my_list is: {min_value}")
+
+# Count the occurrence of 30 in the list
+count_30 = my_list.count(30)
+print(f"The number 30 appears {count_30} times in my_list")
